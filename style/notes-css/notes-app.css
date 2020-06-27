@@ -1,0 +1,59 @@
+.notes-container {
+    margin: 20px;
+    grid-template-columns: repeat(5, 208px);
+    grid-template-rows: repeat(10, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.notepage-header {
+    font-size: 55px;
+    color: rgb(105, 24, 119);
+    margin: 10px auto;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.notes-page {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.note-input {
+    width: 500px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.add-btn {
+    margin: 0 auto 10px auto;
+    background-color: rgb(105, 24, 119);
+    color: white;
+    width: 90px;
+    padding: 13px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.add-btn:hover {
+    background-color: mediumpurple;
+    box-shadow: 4px 6px 16px -6px rgba(135, 135, 135, 0.75);
+    transition: .2s;
+}
+
+.color-palette-btn i {
+    color: white;
+}
+
+.color-palette-btn input {
+    opacity: 0;
+    position: absolute;
+}

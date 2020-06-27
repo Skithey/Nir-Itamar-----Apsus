@@ -1,0 +1,61 @@
+.compose-btn {
+    margin: 0 auto 10px auto;
+    background-color: rgb(105, 24, 119);
+    color: white;
+    width: 90px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compose-btn:hover {
+    background-color: mediumpurple;
+    box-shadow: 4px 6px 16px -6px rgba(135, 135, 135, 0.75);
+    transition: .2s;
+}
+
+.email-filter input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+}
+
+.email-filter select {
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+}
+
+.clear-btn {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.importance-checkbox {
+    position: absolute;
+    width: 169px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.stared-btn {
+    width: 169px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: rgb(15, 15, 58);
+    color: beige;
+}
+
+.stared-btn span {
+    padding: 10px;
+}

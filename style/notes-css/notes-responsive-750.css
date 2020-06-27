@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+    .notes-container {
+        margin: 10px;
+        grid-template-columns: repeat(2, 185px);
+        grid-template-rows: repeat(10, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    .note-input {
+        width: 250px;
+    }
+    .img-input {
+        width: 375px;
+    }
+}

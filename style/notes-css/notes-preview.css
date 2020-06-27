@@ -1,0 +1,37 @@
+.note {
+    /* background-color: lightblue; */
+    position: relative;
+    border: 1px solid black;
+    /* margin: 2px; */
+    padding: 4px;
+    border-radius: 10px;
+    min-height: 150px;
+    /* width: 250px; */
+}
+
+.note-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.note-text-area {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin: 5px auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.header-area {
+    font-weight: 800;
+    font-size: 27px;
+    color: rgb(32, 31, 31);
+    text-align: center;
+    margin: 5px auto;
+    width: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+}

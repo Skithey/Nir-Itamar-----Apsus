@@ -1,0 +1,98 @@
+@media (max-width:750px) {
+    .container {
+        max-width: 400px;
+    }
+    .inbox-btn {
+        width: 70px;
+        height: 30px;
+    }
+    .email-subject-info {
+        display: none;
+    }
+    .stared-btn {
+        width: 100px;
+    }
+    .email-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-row {
+        width: 340px;
+    }
+    .email-subject {
+        width: 235px;
+    }
+    .compose-inbox-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .filter-container {
+        flex-direction: column;
+    }
+    .email-filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* .inbox-btn {
+        margin: 0 auto;
+    } */
+    /* .compose-btn {
+        height: 30px;
+    } */
+    .app-header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .bgc-img {
+        left: 20vw;
+        top: 200px;
+    }
+    .hamburger-btn {
+        visibility: visible;
+        transition: .3s;
+    }
+    .hamburger-btn:hover {
+        color: rgb(202, 199, 199);
+    }
+    .routs-container {
+        background-color: rgb(105, 24, 119);
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        z-index: -1;
+        transform: translateY(-100px);
+        transition: transform 0.5s;
+    }
+    .routs-container .nav-btn {
+        cursor: pointer;
+        transition: color 0.8s ease-in;
+        opacity: unset;
+        color: transparent;
+        visibility: hidden;
+        padding: 5px 5px 5px 30px;
+    }
+    .menuopen .routs-container {
+        transform: translateY(90px);
+        opacity: 1;
+        z-index: 1;
+    }
+    .menuopen .routs-container .nav-btn {
+        color: white;
+        visibility: visible;
+    }
+    .menuopen .routs-container .nav-btn:hover {
+        color: rgb(202, 199, 199);
+        visibility: visible;
+    }
+    .home-page-txt {
+        font-size: 2rem;
+    }
+}

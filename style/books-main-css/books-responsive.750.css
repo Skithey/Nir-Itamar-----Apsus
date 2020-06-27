@@ -1,0 +1,12 @@
+@media (max-width: 750px) {
+    .book-list {
+        grid-template-columns: repeat(1, 320px);
+        grid-template-rows: repeat(7, 400px);
+    }
+    .filter-inputs {
+        margin-bottom: 5px;
+    }
+    .search-input {
+        margin-bottom: 5px;
+    }
+}

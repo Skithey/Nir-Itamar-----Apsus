@@ -1,0 +1,90 @@
+    .email-modal {
+        z-index: 1;
+        width: 100vh;
+        /* /* position: absolute; */
+        animation: bottomtotop .8s;
+    }
+    /* .email-modal {
+    z-index: 1;
+    width: 100vh;
+    position: relative;
+    animation: bottomtotop .5s;
+} */
+    
+    @keyframes bottomtotop {
+        from {
+            bottom: -300px;
+            opacity: 0;
+        }
+        to {
+            bottom: 0;
+            opacity: 1;
+        }
+    }
+    
+    .email-modal header {
+        padding: 10px;
+        margin: 0;
+        background-color: rgb(75, 69, 69);
+        color: wheat;
+    }
+    
+    .new-mail-header h3 {
+        margin-left: 40%;
+    }
+    
+    .new-mail-header button {
+        /* height: 20px; */
+        background: none;
+        color: wheat;
+        font-size: 17px;
+        border: none;
+        outline: none;
+    }
+    
+    .new-mail-header button:hover {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .email-modal input {
+        padding: 7px;
+        border: 1px solid rgb(192, 192, 192);
+        outline: none;
+    }
+    
+    .email-modal textarea {
+        border: none;
+        outline: none;
+        resize: none;
+        border: 1px solid rgb(192, 192, 192);
+        height: 30rem;
+    }
+    
+    .email-modal .submit-btn {
+        border: none;
+        outline: none;
+        padding: 8px 15px;
+        border-radius: 8px;
+        font-size: 15px;
+        background-color: rgb(75, 69, 69);
+        color: wheat;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+    
+    .email-modal .submit-btn:hover {
+        background-color: rgb(146, 139, 139);
+        transition: .2s;
+        box-shadow: 4px 6px 16px -6px rgba(135, 135, 135, 0.75);
+    }
+    
+    .new-mail {
+        z-index: 1;
+        background-color: lightblue;
+        width: 500px;
+        height: 500px;
+        right: 5px;
+        bottom: -5px;
+    }

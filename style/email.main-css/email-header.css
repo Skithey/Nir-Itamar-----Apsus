@@ -1,0 +1,112 @@
+.read {
+    font-weight: 800;
+}
+
+.app-header {
+    height: 70px;
+}
+
+.header-logo {
+    margin-top: 10px;
+    width: 70px;
+}
+
+.header-container {
+    color: white;
+    padding: 10px;
+    background-color: rgb(105, 24, 119);
+}
+
+.head-full-logo {
+    z-index: 3;
+}
+
+.hamburger-btn {
+    /* position: absolute; */
+    outline: none;
+    right: 15px;
+    cursor: pointer;
+    visibility: hidden;
+    color: white;
+    font-size: 35px;
+    border: none;
+    background-color: rgb(105, 24, 119);
+    z-index: 3;
+}
+
+.email-btn {
+    margin: 5px;
+}
+
+.btncolor {
+    background-color: beige;
+    color: beige
+}
+
+.fas {
+    /* background-color: beige; */
+    color: beige;
+}
+
+.email-main-header {
+    font-size: 55px;
+    color: rgb(105, 24, 119);
+    margin: 10px auto;
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-a {
+    font-size: 40px;
+}
+
+.router-a {
+    color: white;
+    font-size: 20px;
+    /* margin-left: 15px;
+     padding-left: 10px; */
+}
+
+.router-link-exact-active {
+    color: rgb(237, 128, 241);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.router-a:hover {
+    color: mediumpurple;
+}
+
+.router-a:nth-child(1) {
+    /* margin: 0 15px 0 15px; */
+    padding: 0 15px 0 15px;
+}
+
+.router-a:nth-child(2) {
+    /* margin-left: 15px; */
+    padding: 0 15px 0 15px;
+}
+
+.router-a:nth-child(3) {
+    /* margin-left: 15px; */
+    padding: 0 0 0 15px;
+}
+
+
+/* ////////////////////////////////// */
+
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgba(214, 213, 213);
+    background-color: rgb(105, 24, 119);
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,97 @@
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+
+/* GRID */
+
+.grid {
+    display: grid;
+}
+
+
+/* ETC */
+
+.no-list {
+    list-style: none;
+}
+
+.btn {
+    background: rgb(190, 190, 190);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+    transition: .2s;
+}
+
+.visible {
+    display: none;
+    /* animation: toptobottom .5s; */
+}
+
+.opacity {
+    opacity: 0;
+}
+
+
+/* @keyframes toptobottom {
+    from {
+        bottom: 0;
+        opacity: 1;
+    }
+    to {
+        bottom: -300px;
+        opacity: 0;
+        display: none;
+    }
+} */
+
+.underline {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}

@@ -1,0 +1,19 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 750px;
+        z-index: 3;
+    }
+    .email-subject {
+        width: 400px;
+    }
+    .email-row {
+        width: 500px;
+    }
+    .bgc-img {
+        left: 30%;
+    }
+    .email-desc-preview {
+        display: none;
+        padding: 20px;
+    }
+}

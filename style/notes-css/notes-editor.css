@@ -1,0 +1,60 @@
+.note-txt .editor-nav {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.note-txt:hover .editor-nav {
+    opacity: 1;
+    transition: .2s;
+}
+
+.note-todods .editor-nav {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.note-todods:hover .editor-nav {
+    opacity: 1;
+    transition: .2s;
+}
+
+.note-img .editor-nav {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5px; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.note-img:hover .editor-nav {
+    opacity: 1;
+    transition: .2s;
+}
+
+.note-txt {
+    /* padding-bottom: 20px; */
+}
